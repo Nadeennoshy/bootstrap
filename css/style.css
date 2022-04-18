@@ -1,0 +1,145 @@
+:root
+{
+    --mainColor: #14c7eb;
+    --secondColor: #0A4B73;
+}
+.navbar
+{
+    top: 0;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: var(--mainColor);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 ,0, 0 , .3);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--mainColor);
+}
+@media (min-width: 992px)
+{
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.9rem;
+        padding-left: 0.9rem;
+    }
+}
+.navbar .search-icon
+{
+    color: rgba(0 ,0, 0 , .3);
+}
+.navbar .search-icon:hover
+{
+    cursor: pointer;
+    color:var(--mainColor) ;
+}
+::placeholder
+{
+    color: var(--mainColor) !important;
+}
+.maincolor
+{
+    color: var(--mainColor);
+}
+.bg-main
+{
+    background-color: var(--mainColor);
+}
+.header
+{
+    background-color: #F8F8F8;
+}
+.secColor
+{
+    color: var(--secondColor);
+}
+.bg-sec
+{
+    background-color: var(--secondColor);
+}
+a,a:focus,a:hover
+{
+    text-decoration: none;
+}
+.header h6
+{
+    color: #C1C1C1;
+    font-size: 14px;
+}
+.header .logo a:hover i
+{
+    color: var(--secondColor) !important;
+}
+.about
+{
+    background-color: #F2FCFE;
+}
+.about .card-about{
+    transition: all 0.5s ease-in-out;
+}
+.about .card-about:hover{
+    background-color: var(--mainColor) !important;
+    cursor: pointer;
+}
+.about .card-about:hover i{
+    color: #fff;
+}
+.about .card-about:hover p{
+    color:#ddd !important;
+}
+.about .card-about:hover h4{
+    color: #81d6de;
+}
+.about .card-about h4
+{
+    color: #3C3D41;
+}
+.count:after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(../img/R.png);
+    opacity: .4;
+    background-position: bottom left;
+    background-size: 140% 184%;
+}
+.image
+{
+    max-width: 100%;
+    border-bottom-left-radius: 40px;
+    object-fit: cover;
+}
+.rounded-icon
+{
+    width: 100px;
+    height: 100px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    /* border-radius: 50%; */
+}
+
+.bg-white.border
+{
+    transition: all 0.5s ease-in-out;
+}
+.bg-white.border:hover
+{
+    background-color: #0b5ed7 !important;
+    cursor: pointer;
+}
+
+.bg-white.border:hover p , .bg-white.border:hover h6
+{
+    color: white !important;
+}
+
+.rounded-icon i
+{
+    font-size: 37px;
+    margin-top: 30px;
+}
